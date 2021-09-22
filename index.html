@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html>
- <style>
-    p {
-      color:white
-    }
-    a:link {
-      text-decoration: none;
-    }
- </style>
-  <head>
-    <meta name="description" content="haha">
-    <title>
-      Pookyy's Site
-    </title>
-  </head>
-
-  <body>
-    <br>
-    <a href="https://google.com">
-      <img src="Water mark.png" alt="Home Logo" width=100px>
-    </a>
-    <br>
-    <a href="https://akademik.itb.ac.id/?context=mahasiswa:19721326" target="_blank" style="border:1px solid black">
-      Link to six
-    </a>
-    <br>
-
-    <table>
-      <tr>
-        <th>Company</th>
-        <th>Contact</th>
-        <th>Country</th>
-      </tr>
-      <tr>
-        <td>Alfreds Futterkiste</td>
-        <td>Maria Anders</td>
-        <td>Germany</td>
-      </tr>
-      <tr>
-        <td>Centro comercial Moctezuma</td>
-        <td>Francisco Chang</td>
-        <td>Mexico</td>
-      </tr>
-    </table>
-
-   </body>
+<head>
+  <title>
+    Scy's site
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+  body{
+    margin:0px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+  }
+  li {
+    font-size: 20px;
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: gray;
+  }
+  #homeimage:hover {
+    background-color: #333;
+  }
+  #youtubebutton, #youtubebutton:visited {
+    color:white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 6px;
+    font-size: 100px;
+    text-decoration: none;
+  }
+</style>
+<body>
+  <ul>
+    <li>
+      <a id="homeimage" href="index.html" style="padding:0px 10px; margin-top: 3px">
+        <img src="Water mark.png" alt="Home Logo" width="43px">
+      </a>
+    </li>
+    <li>
+      <a href="https://akademik.itb.ac.id/?context=mahasiswa:19721326" target="_blank">
+        SIX
+      </a>
+    </li>
+    <li>
+      <a href="https://edunex.itb.ac.id/" target="_blank">
+        Edunex
+      </a>
+    </li>
+    <li>
+      <a href="https://space.sbm.itb.ac.id/#/pUser" target="_blank">
+        Space ITB
+      </a>
+    </li>
+  </ul>
+  <a href="https://www.youtube.com/" target="mainframe" id="youtubebutton">Youtube</a>
+  <iframe name="mainframe" style="width:100%;height:600px;border:none;"></iframe>
+</body>
 </html>
